@@ -1,14 +1,18 @@
 # Flatpickr widget for Yii2
 
+[![Latest Stable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/stable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
+[![Total Downloads](https://img.shields.io/github/downloads/codenix-sv/yii2-flatpickr/total.svg)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
+[![Latest Unstable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/unstable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE)
+
 This is Yii2 widget wrapper for [Flatpickr datetime picker](https://github.com/chmln/flatpickr).
 Flatpickr is a lightweight and powerful datetime picker written in vanilla javascript.
-
 
 ![flatpickr-theme](https://user-images.githubusercontent.com/17989224/33085187-a6a75f26-ceec-11e7-9c5f-56930360a488.png)
 ![flatpickr-theme-dark](https://user-images.githubusercontent.com/17989224/33085189-a6d0688a-ceec-11e7-8a38-be258ff692b2.png)
 
 ## Latest release
-The latest stable version of the extension is v1.0.0
+The latest stable version of the extension is v1.0
 
 ## Installation
 

@@ -1,0 +1,6 @@
+<div class="form-group field-testmodel-date">
+<label class="control-label" for="testmodel-date">Date</label>
+<input type="text" id="testmodel-date" class="form-control" name="TestModel[date]" value="2017-10-10" data-input>
+
+<div class="help-block"></div>
+</div>

@@ -1,0 +1,46 @@
+{
+    "name": "codenix-sv/yii2-flatpickr",
+    "description": "Lightweight and powerful datetimepicker for Yii2 Framework",
+    "keywords": [
+            "yii2", 
+            "yii2 flatpickr", 
+            "yii2 datepicker",
+            "flatpickr"
+        ],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+            "issues": "https://github.com/codenix-sv/yii2-flatpickr/issues?state=open",
+            "source": "https://github.com/codenix-sv/yii2-flatpickr"
+        },
+    "authors": [
+        {
+            "name": "Vladymyr Svyryd",
+            "email": "codenix.sv@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/flatpickr": "~4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "codenixsv\\flatpickr\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "codenixsv\\flatpickr\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}

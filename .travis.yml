@@ -1,0 +1,30 @@
+language: php
+
+php:
+  - 5.6
+  - 7.0
+  - 7.1
+  - 7.2
+
+# faster builds on new travis setup not using sudo
+sudo: false
+
+# cache vendor dirs
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+install:
+  - travis_retry composer self-update && composer --version
+  - travis_retry composer update --dev --prefer-dist --no-interaction
+
+script:
+  - composer validate --strict
+  - vendor/bin/phpunit
+
+after_script:
+  - |
+    if [ $TRAVIS_PHP_VERSION = '5.6' ]; then
+      travis_retry wget https://scrutinizer-ci.com/ocular.phar
+      php ocular.phar code-coverage:upload --format=php-clover coverage.clover
+    fi

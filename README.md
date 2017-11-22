@@ -6,6 +6,7 @@
 [![License](https://poser.pugx.org/codenix-sv/yii2-flatpickr/license)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 [![Build Status](https://travis-ci.org/codenix-sv/yii2-flatpickr.svg?branch=master)](https://travis-ci.org/codenix-sv/yii2-flatpickr)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6635494b1c54e2c117c/maintainability)](https://codeclimate.com/github/codenix-sv/yii2-flatpickr/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/f6635494b1c54e2c117c/test_coverage)](https://codeclimate.com/github/codenix-sv/yii2-flatpickr/test_coverage)
 
 This is Yii2 widget wrapper for [Flatpickr datetime picker](https://github.com/chmln/flatpickr).
 Flatpickr is a lightweight and powerful datetime picker written in vanilla javascript.

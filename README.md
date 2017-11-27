@@ -1,7 +1,6 @@
 # Flatpickr widget for Yii2
 
 [![Latest Stable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/stable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
-[![Total Downloads](https://poser.pugx.org/codenix-sv/yii2-flatpickr/downloads)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 [![Latest Unstable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/unstable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 [![License](https://poser.pugx.org/codenix-sv/yii2-flatpickr/license)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 [![Build Status](https://travis-ci.org/codenix-sv/yii2-flatpickr.svg?branch=master)](https://travis-ci.org/codenix-sv/yii2-flatpickr)

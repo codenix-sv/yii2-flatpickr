@@ -2,7 +2,7 @@
 /**
  * @link https://github.com/codenix-sv/yii2-flatpickr
  * @copyright Copyright (c) 2017 codenix-sv
- * @license https://github.com/codenix-sv/yii2-flatpickr/blob/master/LICENSE.md
+ * @license https://github.com/codenix-sv/yii2-flatpickr/blob/master/LICENSE
  */
 
 namespace codenixsv\flatpickr\assets;

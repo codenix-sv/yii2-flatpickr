@@ -1,11 +1,14 @@
 # Flatpickr widget for Yii2
 
-[![Latest Stable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/stable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
-[![Latest Unstable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/unstable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
-[![License](https://poser.pugx.org/codenix-sv/yii2-flatpickr/license)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 [![Build Status](https://travis-ci.org/codenix-sv/yii2-flatpickr.svg?branch=master)](https://travis-ci.org/codenix-sv/yii2-flatpickr)
 [![Maintainability](https://api.codeclimate.com/v1/badges/f6635494b1c54e2c117c/maintainability)](https://codeclimate.com/github/codenix-sv/yii2-flatpickr/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/f6635494b1c54e2c117c/test_coverage)](https://codeclimate.com/github/codenix-sv/yii2-flatpickr/test_coverage)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/codenix-sv/yii2-flatpickr/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/codenix-sv/yii2-flatpickr/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/codenix-sv/yii2-flatpickr/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/codenix-sv/yii2-flatpickr/?branch=master)
+
+[![Latest Stable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/stable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
+[![Latest Unstable Version](https://poser.pugx.org/codenix-sv/yii2-flatpickr/v/unstable)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
+[![License](https://poser.pugx.org/codenix-sv/yii2-flatpickr/license)](https://packagist.org/packages/codenix-sv/yii2-flatpickr)
 
 This is Yii2 widget wrapper for [Flatpickr datetime picker](https://github.com/chmln/flatpickr).
 Flatpickr is a lightweight and powerful datetime picker written in vanilla javascript.

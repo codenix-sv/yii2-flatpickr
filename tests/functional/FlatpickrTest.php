@@ -16,7 +16,7 @@ class FlatpickrTest extends TestCase
     {
         $model = new TestModel();
         $model->date = '2017-12-12';
-        $result = Flatpickr::widget(['model' => $model, 'attribute' => 'date']);
+        $result = Flatpickr::widget(['model' => $model, 'attribute' => 'date', 'clientOptions' => ['locale' => 'ru']]);
         $expected = '<input type="text" id="testmodel-date" class="form-control" name="TestModel[date]" value="2017-12-12" data-input>';
         $this->assertEquals($expected, $result);
     }

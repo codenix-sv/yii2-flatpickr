@@ -25,26 +25,18 @@ class Flatpickr extends InputWidget
      */
     public $clientOptions = [];
 
-    /**
-     * @var array
-     */
+    /** @var array */
     public $defaultOptions = [
         'allowInput' => true
     ];
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $_locale;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     public $theme;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     private $_id;
 
     /**
@@ -64,17 +56,14 @@ class Flatpickr extends InputWidget
 
     /**
      * @inheritdoc
-     * @return string
      */
-    public function run()
+    public function run(): string
     {
         parent::run();
 
         $this->registerClientScript();
 
-        $content = $this->renderContent();
-
-        return $content;
+        return $this->renderContent();
     }
 
     /**
@@ -96,15 +85,13 @@ class Flatpickr extends InputWidget
 
     /**
      * Renders widget
-     * @return string
      */
-    private function renderContent()
+    private function renderContent(): string
     {
         $options = ArrayHelper::merge(['class' => 'form-control', 'data-input' => true], $this->options);
-        $content = $this->hasModel()
+
+        return $this->hasModel()
             ? Html::activeTextInput($this->model, $this->attribute, $options)
             : Html::textInput($this->name, $this->value, $options);
-
-        return $content;
     }
 }

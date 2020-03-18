@@ -15,36 +15,23 @@ use yii\web\AssetBundle;
  */
 class FlatpickrAsset extends AssetBundle
 {
-    /**
-     * @inheritdoc
-     * @var string
-     */
+    /** @var string */
     public $sourcePath = '@npm/flatpickr/dist';
 
-    /**
-     * @inheritdoc
-     * @var array
-     */
+   /** @var array */
     public $js = [
         'flatpickr.min.js',
     ];
 
-    /**
-     * @inheritdoc
-     * @var array
-     */
+   /** @var array */
     public $css = [
         'flatpickr.min.css',
     ];
 
-    /**
-     * @var string
-     */
+    /** @var string */
     public $theme;
 
-    /**
-     * @var string
-     */
+    /** @var string */
     public $locale;
 
     /**

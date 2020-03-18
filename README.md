@@ -16,7 +16,7 @@ Flatpickr is a lightweight and powerful datetime picker written in vanilla javas
 ![flatpickr-theme-dark](https://user-images.githubusercontent.com/17989224/33085189-a6d0688a-ceec-11e7-8a38-be258ff692b2.png)
 
 ## Latest release
-The latest stable version of the extension is v1.0
+The latest stable version of the extension is v2.0
 
 ## Installation
 
@@ -25,12 +25,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ composer require codenix-sv/yii2-flatpickr:~1.0
+$ composer require codenix-sv/yii2-flatpickr:~2.0
 ```
 or add
 
 ```json
-"codenix-sv/yii2-flatpickr" : "~1.0"
+"codenix-sv/yii2-flatpickr" : "~2.0"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -46,7 +46,7 @@ use codenixsv\flatpickr\Flatpickr;
 
 ?>
 ...
-<?= $form->field($model, 'date')->widget(Flatpickr::className()) ?>
+<?= $form->field($model, 'date')->widget(Flatpickr::class) ?>
 ```
 ### Example of use as a widget:
 ```php
@@ -61,7 +61,7 @@ use codenixsv\flatpickr\Flatpickr;
 
 ?>
 ...
-<?= $form->field($model, 'email')->widget(Flatpickr::className(), [
+<?= $form->field($model, 'email')->widget(Flatpickr::class, [
         'theme' =>'dark',
         'clientOptions' => [
             'locale' => 'ru',

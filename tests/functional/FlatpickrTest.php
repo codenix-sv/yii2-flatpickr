@@ -4,7 +4,6 @@ namespace codenixsv\flatpickr\tests\functional;
 
 use tests\data\models\TestModel;
 use codenixsv\flatpickr\Flatpickr;
-use yii\widgets\ActiveForm;
 
 /**
  * Class FlatpickrTest

@@ -3,13 +3,14 @@
 namespace codenixsv\flatpickr\tests\functional;
 
 use yii\web\View;
-use \yii\web\Application;
+use yii\web\Application;
+use Yii;
 
 /**
  * Class TestCase
  * @package codenixsv\flatpickr\tests\functional
  */
-abstract class TestCase extends \PHPUnit_Framework_TestCase
+abstract class TestCase extends \PHPUnit\Framework\TestCase
 {
     /**
      * @inheritdoc
@@ -40,9 +41,8 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
     /**
      * Returns vendor directory path
      *
-     * @return string
      */
-    protected function getVendorPath()
+    protected function getVendorPath(): string
     {
         return dirname(dirname(__DIR__)) . '/vendor';
     }
@@ -52,28 +52,24 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
      */
     protected function destroyApplication()
     {
-        \Yii::$app = null;
+        Yii::$app = null;
     }
 
     /**
      * Creates view for testing
      *
-     * @return View
      */
-    protected function getView()
+    protected function getView(): View
     {
-        $view = new View();
-
-        return $view;
+        return new View();
     }
 
     /**
      * Returns config for Application
-     * @return array
      */
-    protected function getApplicationConfig()
+    protected function getApplicationConfig(): array
     {
-        $config = [
+        return [
             'id' => 'testapp',
             'basePath' => __DIR__,
             'vendorPath' => $this->getVendorPath(),
@@ -101,7 +97,5 @@ abstract class TestCase extends \PHPUnit_Framework_TestCase
                 ],
             ],
         ];
-
-        return $config;
     }
 }

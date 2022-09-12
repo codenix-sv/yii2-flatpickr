@@ -71,7 +71,7 @@ class Flatpickr extends InputWidget
      */
     private function registerClientScript()
     {
-        $this->_id = $this->options['id'];
+        $this->_id = $this->options['flatpickr'] ?? $this->options['id'];
         $view = $this->getView();
 
         $config = Json::encode(ArrayHelper::merge($this->defaultOptions, $this->clientOptions));

@@ -1,3 +1,8 @@
+# This repository is no longer active.
+⛔ No new issues ⛔ No pull requests ⛔ No maintenance
+
+Source code is kept only for reference purposes.
+
 # Flatpickr widget for Yii2
 
 [![Build Status](https://travis-ci.org/codenix-sv/yii2-flatpickr.svg?branch=master)](https://travis-ci.org/codenix-sv/yii2-flatpickr)
